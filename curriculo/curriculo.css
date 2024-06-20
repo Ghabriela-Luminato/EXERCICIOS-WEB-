@@ -1,0 +1,138 @@
+/* Definindo as fontes e cores */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Cores */
+:root {
+    --primary-color: antiquewhite;
+    --secondary-color: antiquewhite;
+   
+}
+
+/* Estilização da Navegação */
+nav {
+    background: var(--primary-color);
+    color: #070707;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #090909;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilização das Seções */
+section {
+    padding: 20px;
+    margin: 80px 20px 20px 20px;
+}
+
+section#apresentacao {
+    text-align: center;
+}
+
+section#apresentacao img {
+   
+    width: 200px;
+    height: 300px;
+    border-radius: 30%;
+}
+
+.contato {
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilização das Listas */
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background: var(--secondary-color);
+    color: #4b4549d8;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #070707;
+    text-decoration: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    section {
+        margin: 120px 20px 20px 20px;
+    }
+}
+
+/* Estilização das Linhas de Separação */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}

@@ -1,0 +1,11 @@
+/* Color Theme Swatches in Hex */
+.Moda-1-hex { color: #F2C438; }
+.Moda-2-hex { color: #F29544; }
+.Moda-3-hex { color:  #8C6151 } 
+.Moda-4-hex { color: #400101; }
+.Moda-5-hex { color: #0D0D0D; }
+
+html{
+ background-color: #8C6151;
+ color: #400101;
+}
